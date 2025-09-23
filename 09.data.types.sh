@@ -11,7 +11,7 @@ echo "SUM is: ${SUM}"
 
 # Size = 4, Max index = 3
 LEADERS=("Modi" "Putin" "Trudo" "Trump")
-
+# array are variables which can hold multiple values
 echo "All leaders: ${LEADERS[@]}"
 echo "First Leader: ${LEADERS[0]}"
 echo "First Leader: ${LEADERS[10]}"
