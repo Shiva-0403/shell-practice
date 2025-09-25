@@ -1,10 +1,10 @@
-#!/bin/bash 
+#!/bin/bash
 
 echo "Please enter the number:"
 read NUMBER
 
-if [ $NUMBER ]; then 
-    echo "given number is prime"
+if [ $(($NUMBER % 2)) -eq 0 ]; then
+    echo "Given number $NUMBER is EVEN"
 else
-    echo " given number is Not Prime"
-fi 
+    echo "Given number $NUMBER is ODD"
+fi
